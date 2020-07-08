@@ -93,12 +93,12 @@ header{
 	padding-top: 60px;
 }
 .single{
-	width: 45%;
+	width: 47%;
 	float: left;
 }
 .single:nth-child(even)
 {
-	margin-left: 10%;
+	margin-left: 6%;
 }
 .single img{
 	width: 100%;
@@ -127,7 +127,7 @@ header{
 	font-family: 'Playfair Display', serif;
 	font-size: 14px;
 	color: 333333;
-	width: 335px;
+	width: 320px;
 	height: 45px;
 	background-color: transparent;
 	padding-left: 15px;
@@ -144,12 +144,14 @@ header{
 	border: none;
 	cursor: pointer;
 	top:15px;
-	right: -10px;
+	right:0px;
 }
 .s_form button:focus{
 	outline: 0;
 }
-.s_form button img{}
+.s_form button img{
+	padding-left: 25px; 
+}
 
 /*news end*/
 /*blog2 start*/
